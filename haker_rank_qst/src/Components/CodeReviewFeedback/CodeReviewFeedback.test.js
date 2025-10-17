@@ -55,7 +55,7 @@ describe("CodeReviewFeedback Component", () => {
     const getTextValues = screen.getAllByText(/Upvotes:/)[0];
     console.log("getText", getTextValues);
     expect(getTextValues).toHaveClass("animate-upvote");
-    jest.advanceTimersByTime(200);
+    jest.advanceTimersByTime(300);
 
     expect(getTextValues).not.toHaveClass("animate-downvote");
     // expect(screen.getAllByText(/Upvotes:/)[0]).toHaveTextContent("Upvotes: 1");

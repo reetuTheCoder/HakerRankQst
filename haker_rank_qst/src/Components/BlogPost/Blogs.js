@@ -34,7 +34,7 @@ const Blogs = () => {
         />
         <button onClick={createPost}>Create Post</button>
       </div>
-      <div>
+      <div data-testid="posts-list">
         {posts.map((post, index) => {
           return (
             <PostDisplay
