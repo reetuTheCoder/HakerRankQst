@@ -1,0 +1,86 @@
+export const articles = [
+  {
+    id: 1,
+    name: "Mastering React Hooks",
+    upvotes: 320,
+    date: "2025-10-17",
+  },
+  {
+    id: 2,
+    name: "Understanding Async/Await in JavaScript",
+    upvotes: 290,
+    date: "2025-10-16",
+  },
+  {
+    id: 3,
+    name: "Building a Chat App with WebSockets",
+    upvotes: 250,
+    date: "2025-10-14",
+  },
+  {
+    id: 4,
+    name: "Demystifying Redux Toolkit",
+    upvotes: 210,
+    date: "2025-10-12",
+  },
+  {
+    id: 5,
+    name: "Next.js App Router Deep Dive",
+    upvotes: 190,
+    date: "2025-10-10",
+  },
+  {
+    id: 6,
+    name: "Top 10 VS Code Extensions for 2025",
+    upvotes: 160,
+    date: "2025-10-08",
+  },
+  {
+    id: 7,
+    name: "Understanding React Hooks",
+    upvotes: 120,
+    date: "2025-10-10",
+  },
+  {
+    id: 8,
+    name: "Mastering JavaScript Closures",
+    upvotes: 95,
+    date: "2025-09-28",
+  },
+  {
+    id: 9,
+    name: "A Guide to Next.js App Router",
+    upvotes: 180,
+    date: "2025-10-15",
+  },
+  {
+    id: 10,
+    name: "Building Scalable APIs with Node.js",
+    upvotes: 140,
+    date: "2025-08-19",
+  },
+  {
+    id: 11,
+    name: "State Management with Redux Toolkit",
+    upvotes: 160,
+    date: "2025-09-05",
+  },
+  {
+    id: 12,
+    name: "Optimizing Performance in React",
+    upvotes: 210,
+    date: "2025-10-01",
+  },
+  {
+    id: 13,
+    name: "How to Optimize React Performance",
+    upvotes: 140,
+    date: "2025-10-06",
+  },
+  {
+    id: 14,
+    name: "Introduction to TypeScript for Beginners",
+    upvotes: 120,
+    date: "2025-10-03",
+  },
+];
