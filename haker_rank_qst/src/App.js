@@ -3,6 +3,7 @@ import CodeReviewFeedback from "./Components/CodeReviewFeedback/By_UseStateHook/
 import CodeReviewFeedbacks from "./Components/CodeReviewFeedback/By_UseReducerHook/CodeReviewFeedback";
 import Blogs from "./Components/BlogPost/Blogs";
 import FormValidations from "./Components/FormValidation/FormValidations";
+import EmployeeValidationForm from "./Components/EmployeeValidationForm/EmployeeValidationForm";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
 
       {/* <Blogs/> */}
 
-      <FormValidations />
+      {/* <FormValidations /> */}
+      <EmployeeValidationForm/>
     </div>
   );
 }
