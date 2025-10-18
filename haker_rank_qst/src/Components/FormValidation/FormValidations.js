@@ -9,6 +9,13 @@ function FormValidations() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!name.trim() || !email.trim() || !message.trim()) {
+      setError("All fields are required.");
+      setSubmittedData(null)
+      return;
+    }
+    setError("");
     setSubmittedData({
       name,
       email,
